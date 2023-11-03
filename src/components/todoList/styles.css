@@ -1,0 +1,36 @@
+.todos__active, .todos__done {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 47.5%;
+}
+
+.todos__active {
+    background-color: palevioletred;
+}
+
+.todos__done {
+    background-color: darkgreen;
+}
+
+.container {
+    display: flex;
+    width: 95%;
+    margin-top: 1rem;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.todos__heading {
+    font-size: 2rem;
+    color: aliceblue;
+}
+
+.dragactive {
+    background-color: lightpink;
+}
+
+.dragcomplete {
+    background-color: forestgreen;
+}
